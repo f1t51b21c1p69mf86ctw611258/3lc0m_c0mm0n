@@ -16,7 +16,7 @@ TCPKeepAlive=0
 KeepAliveInterval=60
 KeepAliveString=
 AutoReconnectInterval=30
-Host=192.168.7.169
+Host=192.168.70.111
 KeepAlive=1
 AutoReconnectLimit=0
 SendKeepAlive=0
@@ -32,7 +32,7 @@ UseExpectSend=0
 UserName=manucian86
 UserKey=
 ExpectSend_Count=0
-Password=666eVPyZjAouyA==
+Password=64qXUPu3qAMqz6c=
 Passphrase=
 UseInitScript=0
 Method=0
