@@ -22,6 +22,58 @@
 # <port> = database server machine port to use
 # <database service name> = name of the database service on the server
 
+VM_RAC_ORCL=
+  (DESCRIPTION=
+    (LOAD_BALANCE=on)
+    (ADDRESS_LIST=
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=192.168.170.151)
+        (PORT=1521)
+      )
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=192.168.170.152)
+        (PORT=1521)
+      )
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=orcl)
+    )
+  )
+
+VM_RAC_ORCL_INSTANCE1=
+  (DESCRIPTION=
+    (LOAD_BALANCE=on)
+    (ADDRESS_LIST=
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=192.168.170.151)
+        (PORT=1521)
+      )
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=orcl)
+      (INSTANCE_NAME=orcl1)
+    )
+  )
+
+VM_RAC_ORCL_INSTANCE2=
+  (DESCRIPTION=
+    (LOAD_BALANCE=on)
+    (ADDRESS_LIST=
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=192.168.170.152)
+        (PORT=1521)
+      )
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=orcl)
+      (INSTANCE_NAME=orcl2)
+    )
+  )
+
 LOCAL_ORCL=
   (DESCRIPTION=
     (ADDRESS=
