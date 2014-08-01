@@ -7,19 +7,17 @@ FlowCtrl=0
 DataBits=3
 [CONNECTION]
 Port=22
-StartUp=0
 Protocol=SSH
-Proxy=
-AutoReconnect=0
 SendKeepAliveInterval=60
+AutoReconnect=0
 TCPKeepAlive=0
 KeepAliveInterval=60
 KeepAliveString=
 AutoReconnectInterval=30
-Host=192.9.202.8
+Host=192.168.7.219
 KeepAlive=1
-AutoReconnectLimit=0
 SendKeepAlive=0
+AutoReconnectLimit=0
 [Information]
 Description=Xshell Session Profile
 MinorVersion=0
@@ -28,23 +26,14 @@ MajorVersion=3
 TelnetLoginPrompt=ogin:
 TelnetPasswordPrompt=assword:
 ScriptPath=
-UseExpectSend=1
-ExpectSend_Send_2=yauAVQ==
-ExpectSend_Send_1=2KWdUuC4
-UserName=oracle8
+UseExpectSend=0
+UserName=cloudera
 UserKey=
-ExpectSend_Count=3
-ExpectSend_Send_0=2LmbHeC2hxMHl/BlXCku+0yeEUHm
-ExpectSend_Expect_2=root@ELC-TEST-upm1 ~]#
-ExpectSend_Expect_1=root@192.9.202.10's password:
-ExpectSend_Expect_0=sdp1:/oracle/node1>
-Password=xLiSXv680A==
+ExpectSend_Count=0
+Password=yKacSPa8mgY=
 Passphrase=
 UseInitScript=0
-ExpectSend_Hide_2=1
-ExpectSend_Hide_1=1
 Method=0
-ExpectSend_Hide_0=1
 RloginPasswordPrompt=assword:
 [CONNECTION:TELNET]
 NegoMode=0
@@ -55,7 +44,7 @@ NoQuickButton=0
 ShowOnLinkBar=0
 QuickCommand=
 [CONNECTION:SSH]
-ForwardX11=1
+ForwardX11=0
 VexMode=0
 LaunchAuthAgent=1
 InitLocalDirectory=
@@ -68,7 +57,7 @@ InitRemoteDirectory=
 ForwardToXmanager=1
 FwdReqCount=0
 NoTerminal=0
-CipherList=aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,arcfour,aes192-cbc,aes256-cbc,rijndael128-cbc,rijndael192-cbc,rijndael256-cbc,rijndael-cbc@lysator.liu.se
+CipherList=aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,arcfour,aes192-cbc,aes256-cbc,rijndael128-cbc,rijndael192-cbc,rijndael256-cbc,aes256-ctr,aes192-ctr,aes128-ctr,rijndael-cbc@lysator.liu.se
 MACList=hmac-sha1,hmac-sha1-96,hmac-md5,hmac-md5-96,hmac-ripemd160,hmac-ripemd160@openssh.com
 [TERMINAL]
 ScrollErasedText=1
@@ -81,7 +70,7 @@ ForceEraseOnDEL=0
 KeyMap=0
 InitReverseMode=0
 DeleteSends=0
-BackspaceSends=1
+BackspaceSends=2
 UseAltAsMeta=0
 InitKeypadMode=0
 InitCursorMode=0
@@ -114,6 +103,9 @@ FileMethod=0
 Passive=1
 InitLocalDirectory=
 InitRemoteDirectory=
+[CONNECTION:PROXY]
+StartUp=0
+Proxy=
 [TERMINAL:WINDOW]
 FontSize=9
 CharSpace=0
@@ -130,9 +122,6 @@ MarginTop=2
 MarginRight=2
 CursorColor=65280
 CursorBlinkInterval=600
-[CONNECTION:PROXY]
-StartUp=0
-Proxy=
 [TRANSFER]
 FolderMethod=0
 SendFolderPath=

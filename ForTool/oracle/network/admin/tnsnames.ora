@@ -373,6 +373,19 @@ ELC_C1_202_8_PCAT=
       (SERVICE_NAME=PCAT)
     )
   )
+  
+ELC_C1_202_8_MAIN=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=192.9.202.8)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=MAIN)
+    )
+  )
 
 VM_7_177_DWH=
   (DESCRIPTION=

@@ -32,7 +32,7 @@ UseExpectSend=0
 UserName=root
 UserKey=
 ExpectSend_Count=0
-Password=mvjACafv
+Password=2aWcSaPr2w==
 Passphrase=
 UseInitScript=0
 Method=0
@@ -112,7 +112,7 @@ CursorBlink=0
 LineSpace=0
 FontFace=Courier New
 BoldMethod=2
-ColorScheme=ANSI Colors on Black
+ColorScheme=ubuntu
 CursorAppearance=0
 MarginLeft=2
 CursorTextColor=0
