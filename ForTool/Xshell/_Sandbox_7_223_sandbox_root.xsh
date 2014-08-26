@@ -7,19 +7,17 @@ FlowCtrl=0
 DataBits=3
 [CONNECTION]
 Port=22
-StartUp=0
 Protocol=SSH
-Proxy=
-AutoReconnect=0
 SendKeepAliveInterval=60
+AutoReconnect=0
 TCPKeepAlive=0
 KeepAliveInterval=60
 KeepAliveString=
 AutoReconnectInterval=30
-Host=192.168.6.156
+Host=192.168.7.223
 KeepAlive=1
-AutoReconnectLimit=0
 SendKeepAlive=0
+AutoReconnectLimit=0
 [Information]
 Description=Xshell Session Profile
 MinorVersion=0
@@ -32,7 +30,7 @@ UseExpectSend=0
 UserName=root
 UserKey=
 ExpectSend_Count=0
-Password=mvjACafv
+Password=w6uXUv2p
 Passphrase=
 UseInitScript=0
 Method=0
@@ -46,7 +44,7 @@ NoQuickButton=0
 ShowOnLinkBar=0
 QuickCommand=
 [CONNECTION:SSH]
-ForwardX11=1
+ForwardX11=0
 VexMode=0
 LaunchAuthAgent=1
 InitLocalDirectory=
@@ -59,7 +57,7 @@ InitRemoteDirectory=
 ForwardToXmanager=1
 FwdReqCount=0
 NoTerminal=0
-CipherList=aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,arcfour,aes192-cbc,aes256-cbc,rijndael128-cbc,rijndael192-cbc,rijndael256-cbc,rijndael-cbc@lysator.liu.se
+CipherList=aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,arcfour,aes192-cbc,aes256-cbc,rijndael128-cbc,rijndael192-cbc,rijndael256-cbc,aes256-ctr,aes192-ctr,aes128-ctr,rijndael-cbc@lysator.liu.se
 MACList=hmac-sha1,hmac-sha1-96,hmac-md5,hmac-md5-96,hmac-ripemd160,hmac-ripemd160@openssh.com
 [TERMINAL]
 ScrollErasedText=1
@@ -105,6 +103,9 @@ FileMethod=0
 Passive=1
 InitLocalDirectory=
 InitRemoteDirectory=
+[CONNECTION:PROXY]
+StartUp=0
+Proxy=
 [TERMINAL:WINDOW]
 FontSize=9
 CharSpace=0
@@ -121,9 +122,6 @@ MarginTop=2
 MarginRight=2
 CursorColor=65280
 CursorBlinkInterval=600
-[CONNECTION:PROXY]
-StartUp=0
-Proxy=
 [TRANSFER]
 FolderMethod=0
 SendFolderPath=
