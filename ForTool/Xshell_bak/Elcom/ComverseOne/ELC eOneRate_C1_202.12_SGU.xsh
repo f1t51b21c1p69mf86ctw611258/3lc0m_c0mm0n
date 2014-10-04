@@ -16,7 +16,7 @@ TCPKeepAlive=0
 KeepAliveInterval=60
 KeepAliveString=
 AutoReconnectInterval=30
-Host=10.149.3.67
+Host=192.9.202.8
 KeepAlive=1
 AutoReconnectLimit=0
 SendKeepAlive=0
@@ -29,16 +29,22 @@ TelnetLoginPrompt=ogin:
 TelnetPasswordPrompt=assword:
 ScriptPath=
 UseExpectSend=1
-UserName=root
+ExpectSend_Send_2=yauAVQ==
+ExpectSend_Send_1=2K2GSOG8mg==
+UserName=oracle8
 UserKey=
-ExpectSend_Count=1
-ExpectSend_Send_0=bash
-ExpectSend_Expect_0=# 
-Password=zKuUXMismw8=
+ExpectSend_Count=3
+ExpectSend_Send_0=2LmbHeG+nRI0w7sXQyky50WCDUDk2Z3K
+ExpectSend_Expect_2=[sguuser@sgu1 ~]#
+ExpectSend_Expect_1=sguuser@192.9.202.12's password:
+ExpectSend_Expect_0=sdp1:/oracle/node1>
+Password=xLiSXv680A==
 Passphrase=
 UseInitScript=0
+ExpectSend_Hide_2=1
+ExpectSend_Hide_1=1
 Method=0
-ExpectSend_Hide_0=0
+ExpectSend_Hide_0=1
 RloginPasswordPrompt=assword:
 [CONNECTION:TELNET]
 NegoMode=0
@@ -75,7 +81,7 @@ ForceEraseOnDEL=0
 KeyMap=0
 InitReverseMode=0
 DeleteSends=0
-BackspaceSends=2
+BackspaceSends=1
 UseAltAsMeta=0
 InitKeypadMode=0
 InitCursorMode=0
@@ -99,9 +105,9 @@ RecvLLAsCRLF=0
 Cols=80
 EraseWithBackgroundColor=1
 [LOGGING]
-AutoStart=1
+AutoStart=0
 Type=0
-FilePath=C:\Users\manucian86\Documents\XshellLog\%n_%d%t.log
+FilePath=
 Overwrite=1
 FileMethod=0
 [CONNECTION:FTP]
@@ -115,7 +121,7 @@ CursorBlink=0
 LineSpace=0
 FontFace=Courier New
 BoldMethod=2
-ColorScheme=ANSI Colors on Black
+ColorScheme=ubuntu
 CursorAppearance=0
 MarginLeft=2
 CursorTextColor=0

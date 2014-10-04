@@ -29,12 +29,12 @@ TelnetLoginPrompt=ogin:
 TelnetPasswordPrompt=assword:
 ScriptPath=
 UseExpectSend=1
-UserName=root
+UserName=oracle8
 UserKey=
 ExpectSend_Count=1
 ExpectSend_Send_0=bash
 ExpectSend_Expect_0=# 
-Password=zKuUXMismw8=
+Password=xLiSXv680A==
 Passphrase=
 UseInitScript=0
 Method=0
