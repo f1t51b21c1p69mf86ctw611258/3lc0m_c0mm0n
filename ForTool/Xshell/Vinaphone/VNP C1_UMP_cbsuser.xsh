@@ -28,17 +28,14 @@ MajorVersion=3
 TelnetLoginPrompt=ogin:
 TelnetPasswordPrompt=assword:
 ScriptPath=
-UseExpectSend=1
-UserName=elcom2
+UseExpectSend=0
+UserName=cbsuser
 UserKey=
 ExpectSend_Count=0
-ExpectSend_Send_0=cd /cdr/usage/remote/ready
-ExpectSend_Expect_0=[elcom2@upm1 ready]$
-Password=zqaQUv+Z2VV0
+Password=yKWeS/ermwI=
 Passphrase=
 UseInitScript=0
 Method=0
-ExpectSend_Hide_0=0
 RloginPasswordPrompt=assword:
 [CONNECTION:TELNET]
 NegoMode=0
