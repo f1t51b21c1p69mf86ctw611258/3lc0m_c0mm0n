@@ -1,0 +1,536 @@
+dn: cn=ELC/PM4/Son Pham,mail=sonph@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PM4/Son Pham
+mail: sonph@elcom.com.vn
+modifytimestamp: 1404697817
+
+dn: cn=ELC/PM4/Dinh Van Thuan,mail=thuandv@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PM4/Dinh Van Thuan
+mail: thuandv@elcom.com.vn
+modifytimestamp: 1406513492
+
+dn: cn=ELC/QA/Ngo Phuong Mai,mail=mainp@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/QA/Ngo Phuong Mai
+mail: mainp@elcom.com.vn
+modifytimestamp: 1398129479
+
+dn: cn=ELC/QA/Nguyen Thi Thu Huong,mail=huongntt3@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/QA/Nguyen Thi Thu Huong
+mail: huongntt3@elcom.com.vn
+modifytimestamp: 1406259518
+
+dn: cn=ELC/QA/Kieu Thi Mai Phuong,mail=phuongktm@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/QA/Kieu Thi Mai Phuong
+mail: phuongktm@elcom.com.vn
+modifytimestamp: 1406259518
+
+dn: cn=ELC/PM4/Nguyen Duc Hinh,mail=hinhnd@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PM4/Nguyen Duc Hinh
+mail: hinhnd@elcom.com.vn
+modifytimestamp: 1409043049
+
+dn: cn=ELC/PM4/TruongDH,mail=truongdh@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PM4/TruongDH
+mail: truongdh@elcom.com.vn
+modifytimestamp: 1409043049
+
+dn: cn=ELC/PM4/Dang Ha Vinh,mail=vinhdh@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PM4/Dang Ha Vinh
+mail: vinhdh@elcom.com.vn
+modifytimestamp: 1404697817
+
+dn: cn=PM4/Ha Quang Tan,mail=tanhq@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: PM4/Ha Quang Tan
+mail: tanhq@elcom.com.vn
+modifytimestamp: 1404697817
+
+dn: cn='trinhvanlinh',mail=linhtv@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: 'trinhvanlinh'
+mail: linhtv@elcom.com.vn
+modifytimestamp: 1396520130
+
+dn: cn=Comverse/Mr.Dinh Kim Cuong,mail=KimCuong.Dinh@comverse.com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+givenName: Dinh Kim
+sn: Cuong
+cn: Comverse/Mr.Dinh Kim Cuong
+mail: KimCuong.Dinh@comverse.com
+modifytimestamp: 1399388031
+
+dn: cn=Comverse/Mr.Hung Dao Viet,mail=Dao-Viet.Hung@comverse.com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+givenName: Hung Dao
+sn: Viet
+cn: Comverse/Mr.Hung Dao Viet
+mail: Dao-Viet.Hung@comverse.com
+modifytimestamp: 1407735664
+
+dn: cn=Comverse/Mr.Nguyen Hai Ha,mail=HaiHa.Nguyen@comverse.com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+givenName: Nguyen Hai
+sn: Ha
+cn: Comverse/Mr.Nguyen Hai Ha
+mail: HaiHa.Nguyen@comverse.com
+mozillaSecondEmail: nhha1602@gmail.com
+modifytimestamp: 1399388031
+
+dn: cn=Comverse/Mr.Quang Nguyen Le Anh,mail=Nguyen-Le-Anh.Quang@comverse.com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+givenName: Quang Nguyen Le
+sn: Anh
+cn: Comverse/Mr.Quang Nguyen Le Anh
+mail: Nguyen-Le-Anh.Quang@comverse.com
+mozillaSecondEmail: quangnla@gmail.com
+modifytimestamp: 1402467543
+
+dn: cn=Comverse/Mr.Trinh Duc Cuong,mail=Cuong.TrinhDuc@comverse.com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+givenName: 'Trinh Duc
+sn: Cuong'
+cn: Comverse/Mr.Trinh Duc Cuong
+mail: Cuong.TrinhDuc@comverse.com
+modifytimestamp: 1400829776
+
+dn: cn=ELC/CORP/Mr.Nguyen Xuan Hoa,mail=hoanx@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+givenName: 'Nguyen Xuan
+sn: Hoa'
+cn: ELC/CORP/Mr.Nguyen Xuan Hoa
+mail: hoanx@elcom.com.vn
+modifytimestamp: 1409043049
+
+dn: cn=ELC/Presales/HungPV,mail=hungpv@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/Presales/HungPV
+mail: hungpv@elcom.com.vn
+modifytimestamp: 1398234715
+
+dn: mail=huyenld@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+mail: huyenld@elcom.com.vn
+modifytimestamp: 1397143849
+
+dn: mail=oanhqh@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+mail: oanhqh@elcom.com.vn
+modifytimestamp: 1399427524
+
+dn: cn=ELC/CORP/Mr.Pham Van Manh,mail=manhpv@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+givenName: Pham Van
+sn: Manh
+cn: ELC/CORP/Mr.Pham Van Manh
+mail: manhpv@elcom.com.vn
+modifytimestamp: 1398234739
+
+dn: cn=VNP/Mr.Dang Van Ha,mail=hadv@vinaphone.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: VNP/Mr.Dang Van Ha
+mail: hadv@vinaphone.vn
+modifytimestamp: 1409043049
+
+dn: cn=VNP/Ms.Nguyen Nguyet Anh,mail=anhnn@vinaphone.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: VNP/Ms.Nguyen Nguyet Anh
+mail: anhnn@vinaphone.vn
+modifytimestamp: 1400829381
+
+dn: cn=VNP/Mr.Nguyen Duy Dong,mail=dongnd@vinaphone.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: VNP/Mr.Nguyen Duy Dong
+mail: dongnd@vinaphone.vn
+modifytimestamp: 1400829403
+
+dn: cn=VNP/Mr.Nguyen Cao Cuong,mail=cuongnc@vinaphone.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: VNP/Mr.Nguyen Cao Cuong
+mail: cuongnc@vinaphone.vn
+modifytimestamp: 1400829426
+
+dn:: Y249RUxDL1BNMi9Nci5RdeG6o25nIFRULG1haWw9cXVhbmd0dEBlbGNvbS5jb20udm4=
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn:: RUxDL1BNMi9Nci5RdeG6o25nIFRU
+mail: quangtt@elcom.com.vn
+modifytimestamp: 1405577869
+
+dn: cn=ELC/CORP/Mr.Tran Tat Thanh,mail=thanhtt@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/CORP/Mr.Tran Tat Thanh
+mail: thanhtt@elcom.com.vn
+modifytimestamp: 1401937019
+
+dn: cn=ELC/PKT/TrungNQ,mail=trungnq@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PKT/TrungNQ
+mail: trungnq@elcom.com.vn
+modifytimestamp: 1406253426
+
+dn: cn=ELC/PKT/Tran Tuan Son,mail=sontt@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PKT/Tran Tuan Son
+mail: sontt@elcom.com.vn
+modifytimestamp: 1402035786
+
+dn: cn=ELC/VAS/Giang LT,mail=gianglt@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/VAS/Giang LT
+mail: gianglt@elcom.com.vn
+modifytimestamp: 1402035816
+
+dn: cn=ELC/PM3/Kiem PQ,mail=kiempq@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PM3/Kiem PQ
+mail: kiempq@elcom.com.vn
+modifytimestamp: 1404705605
+
+dn: cn=ELC/PM3/Mr.Duong NV,mail=duongnv@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PM3/Mr.Duong NV
+mail: duongnv@elcom.com.vn
+modifytimestamp: 1404095574
+
+dn: cn=ELC/PM3/Mr.Cuong Pham,mail=cuongpv@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PM3/Mr.Cuong Pham
+mail: cuongpv@elcom.com.vn
+modifytimestamp: 1404705605
+
+dn: cn=ELC/PM4/Vo Tran Quan,mail=quanvt@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PM4/Vo Tran Quan
+mail: quanvt@elcom.com.vn
+modifytimestamp: 1406259518
+
+dn: cn=Tran Huu Nguyen,mail=nguyenth@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: Tran Huu Nguyen
+mail: nguyenth@elcom.com.vn
+modifytimestamp: 1409043049
+
+dn: cn=ELC/PM1/Anh LongND,mail=longnd@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PM1/Anh LongND
+mail: longnd@elcom.com.vn
+modifytimestamp: 1405577597
+
+dn: cn=ELC/PM4/Mr.Nguyen Duc Binh,mail=binhnd@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PM4/Mr.Nguyen Duc Binh
+mail: binhnd@elcom.com.vn
+modifytimestamp: 1405577625
+
+dn: mail=thangpm@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+mail: thangpm@elcom.com.vn
+modifytimestamp: 0
+
+dn: mail=thangpm@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+mail: thangpm@elcom.com.vn
+modifytimestamp: 0
+
+dn: mail=thangpm@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+mail: thangpm@elcom.com.vn
+modifytimestamp: 0
+
+dn: mail=thangpm@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+mail: thangpm@elcom.com.vn
+modifytimestamp: 0
+
+dn: mail=thangpm@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+mail: thangpm@elcom.com.vn
+modifytimestamp: 0
+
+dn: mail=thangpm@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+mail: thangpm@elcom.com.vn
+modifytimestamp: 0
+
+dn: cn=ELC/PKT/Mr.An LN,mail=anln@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PKT/Mr.An LN
+mail: anln@elcom.com.vn
+modifytimestamp: 1405577689
+
+dn: mail=thangpm@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+mail: thangpm@elcom.com.vn
+modifytimestamp: 0
+
+dn: mail=thangpm@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+mail: thangpm@elcom.com.vn
+modifytimestamp: 0
+
+dn: cn=ELC/PM3/Mr.TanTH,mail=Tanth@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PM3/Mr.TanTH
+mail: Tanth@elcom.com.vn
+modifytimestamp: 1405577720
+
+dn: cn=ELC/PM3/Anh Hieu NX,mail=hieunx@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PM3/Anh Hieu NX
+mail: hieunx@elcom.com.vn
+modifytimestamp: 1405577799
+
+dn: cn=ELC/PM1/Phan PC,mail=phanpc@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PM1/Phan PC
+mail: phanpc@elcom.com.vn
+modifytimestamp: 1405577822
+
+dn:: Y249RUxDL1BLVC9Nci5DaHUgTWluaCBExrDGoW5nLG1haWw9ZHVvbmdjbUBlbGNvbS5jb20udm4=
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn:: RUxDL1BLVC9Nci5DaHUgTWluaCBExrDGoW5n
+mail: duongcm@elcom.com.vn
+modifytimestamp: 1406253426
+
+dn: cn=ELC/PKT/Huan ND,mail=huannd@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PKT/Huan ND
+mail: huannd@elcom.com.vn
+modifytimestamp: 1406087940
+
+dn: cn=ELC/CORP/Mr.Phung Dong,mail=dongp@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/CORP/Mr.Phung Dong
+mail: dongp@elcom.com.vn
+modifytimestamp: 1409043049
+
+dn: cn=ELC/PKT/Nguyen Viet Hai,mail=hainv@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PKT/Nguyen Viet Hai
+mail: hainv@elcom.com.vn
+modifytimestamp: 1406088002
+
+dn: cn=ELC/PKT/Nguyen Ngoc An,mail=annn@elcom.com.vn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+cn: ELC/PKT/Nguyen Ngoc An
+mail: annn@elcom.com.vn
+modifytimestamp: 1406088032
+

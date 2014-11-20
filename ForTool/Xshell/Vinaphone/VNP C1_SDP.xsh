@@ -103,7 +103,7 @@ AutoStart=1
 Type=0
 FilePath=C:\Users\manucian86\Documents\XshellLog\%n_%d%t.log
 Overwrite=1
-FileMethod=1
+FileMethod=0
 [CONNECTION:FTP]
 Passive=1
 InitLocalDirectory=
