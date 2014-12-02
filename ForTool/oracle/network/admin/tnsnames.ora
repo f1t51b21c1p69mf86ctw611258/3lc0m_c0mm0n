@@ -22,6 +22,18 @@
 # <port> = database server machine port to use
 # <database service name> = name of the database service on the server
 
+VNP_C1_EONERATE_BACKUP=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=10.149.33.157)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=orcl)
+    )
+  )
+
 VM_RAC_ORCL=
   (DESCRIPTION=
     (LOAD_BALANCE=on)
