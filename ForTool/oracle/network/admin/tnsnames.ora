@@ -22,15 +22,41 @@
 # <port> = database server machine port to use
 # <database service name> = name of the database service on the server
 
-VNP_C1_EONERATE_BACKUP=
+VNP_C1_3_119_XE =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.149.3.119)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = xe)
+    )
+  )
+  
+VNP_C1_33_157_EONERATE_BACKUP =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.149.33.157)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = eonerate)
+    )
+  )
+
+VNP_RAC_EONERATE=
   (DESCRIPTION=
-    (ADDRESS=
-      (PROTOCOL=TCP)
-      (HOST=10.149.33.157)
-      (PORT=1521)
+    (LOAD_BALANCE=on)
+    (ADDRESS_LIST=
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=10.149.3.113)
+        (PORT=1521)
+      )
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=10.149.3.114)
+        (PORT=1521)
+      )
     )
     (CONNECT_DATA=
-      (SERVICE_NAME=orcl)
+      (SERVICE_NAME=eonerate)
     )
   )
 
