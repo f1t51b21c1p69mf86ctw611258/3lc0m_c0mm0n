@@ -16,7 +16,7 @@ TCPKeepAlive=0
 KeepAliveInterval=60
 KeepAliveString=
 AutoReconnectInterval=30
-Host=10.149.3.122
+Host=10.149.3.116
 KeepAlive=1
 AutoReconnectLimit=0
 SendKeepAlive=0
@@ -29,10 +29,10 @@ TelnetLoginPrompt=ogin:
 TelnetPasswordPrompt=assword:
 ScriptPath=
 UseExpectSend=0
-UserName=root
+UserName=vnp_user
 UserKey=
 ExpectSend_Count=0
-Password=yqiQDKDq
+Password=3aSDYueqjRU=
 Passphrase=
 UseInitScript=0
 Method=0
@@ -98,7 +98,7 @@ EraseWithBackgroundColor=1
 [LOGGING]
 AutoStart=1
 Type=0
-FilePath=
+FilePath=C:\Users\manucian86\Documents\XshellLog\%n_%d%t.log
 Overwrite=1
 FileMethod=0
 [CONNECTION:FTP]
