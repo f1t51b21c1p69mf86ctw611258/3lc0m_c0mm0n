@@ -387,6 +387,38 @@ VNP_C1_RAC_EONERATE=
     )
   )
 
+VNP_C1_RAC_EONERATE_INST1=
+  (DESCRIPTION=
+    (LOAD_BALANCE=on)
+    (ADDRESS_LIST=
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=10.149.3.111)
+        (PORT=1521)
+      )
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=eonerate)
+      (INSTANCE_NAME=eonerate1)
+    )
+  )
+
+VNP_C1_RAC_EONERATE_INST2=
+  (DESCRIPTION=
+    (LOAD_BALANCE=on)
+    (ADDRESS_LIST=
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=10.149.3.112)
+        (PORT=1521)
+      )
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=eonerate)
+      (INSTANCE_NAME=eonerate2)
+    )
+  )
+
 VM_68_87_ORCL=
   (DESCRIPTION=
     (ADDRESS=
